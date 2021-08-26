@@ -54,7 +54,8 @@ public class Group {
 	public int size() {
 		return MEMBER.length;
 	}
-
+	
+	//随机获得成员的名字 用于出生写，后续可以考虑给成员加权重来开包
 	public String getMEMBER() {
 		Random num = new Random();
 		int groupSize = size();
