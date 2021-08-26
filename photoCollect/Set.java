@@ -30,8 +30,9 @@ public class Set {
 		this.member = member;
 		this.photoInfos = store;
 	}
-	
+	//用于统计开包结果
 	public int showSetAmount() {
+		//1set 有几张。 此数组的长度就设置为多少
 		int a[] = {0,0,0};
 		for (Photo photo : photoInfos) {
 			for (int i = 0; i < setNumber; i++) {
